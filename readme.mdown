@@ -88,7 +88,7 @@ every 5 minutes	|   execute temp2.py   | disable email notification
 
 To observe cron working:
 ```
-	tail -f /var/sys/syslog
+	tail -f /var/log/syslog
 ```
 
 Example of the output received:
